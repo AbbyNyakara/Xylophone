@@ -23,15 +23,19 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZXp-Le-SVk" userLabel="C Key">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="100.66666666666667"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6F-w8-i64">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6F-w8-i64">
                                                 <rect key="frame" x="5" y="0.0" width="383" height="100.66666666666667"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="C">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                                     </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="playSoundButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="axs-Jf-Sp2"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -52,6 +56,7 @@
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                     </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -74,6 +79,7 @@
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                     </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -96,6 +102,7 @@
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                     </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -118,6 +125,7 @@
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                                     </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -140,6 +148,7 @@
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                     </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -162,6 +171,7 @@
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                                     </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
